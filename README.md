@@ -3,9 +3,11 @@ Limit Offset Pagination is one of the pagination styles available in Django REST
 
 1. Add 'rest_framework.pagination.LimitOffsetPagination' to your DEFAULT_PAGINATION_CLASS in settings.py:
 
-REST_FRAMEWORK = {
+ REST_FRAMEWORK = {
+    
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 10
+    
 }
 
 2. In your view, set the pagination_class attribute to LimitOffsetPagination.
