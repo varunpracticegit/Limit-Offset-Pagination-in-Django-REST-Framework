@@ -1,5 +1,8 @@
 # Limit-Offset-Pagination-in-Django-REST-Framework
-Limit Offset Pagination is one of the pagination styles available in Django REST Framework that allows the client to specify the maximum number of items to be returned in a response, as well as the offset to start from. Here's how you can implement it in Django REST Framework:
+
+Note: You can get the codes for limit-offset-pagination from the master branch. Navigate and have it!!
+
+Introduction --> Limit Offset Pagination is one of the pagination styles available in Django REST Framework that allows the client to specify the maximum number of items to be returned in a response, as well as the offset to start from. Here's how you can implement it in Django REST Framework:
 
 1. Add 'rest_framework.pagination.LimitOffsetPagination' to your DEFAULT_PAGINATION_CLASS in settings.py:
 
